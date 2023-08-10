@@ -52,7 +52,7 @@ h4{
 
 h5{
     color: red;
-    font-weight: 1500;
+    font-weight: bolder;
 }
 
 nav{
@@ -61,8 +61,10 @@ display: inline-flex;
 
 a:link, a:visited {
     color: gray;
+    text-decoration: none;
 }
 
 a:hover, a:active {
     background-color: #e0e0e0ab;
+    text-decoration: none;
   }
