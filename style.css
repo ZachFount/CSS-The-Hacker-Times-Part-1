@@ -5,6 +5,10 @@ body{
     font-family: Source Sans Pro;
 }
 
+#tabs{
+    padding: 350px;
+}
+
 .newspaper-container{
     background-color: white;
     box-shadow: #ddd ;
@@ -52,11 +56,12 @@ h4{
 
 h5{
     color: red;
+    font-size: 18px;
     font-weight: bolder;
 }
 
 nav{
-display: inline-flex;
+    display: inline-flex;
 }
 
 a:link, a:visited {
@@ -67,4 +72,8 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #e0e0e0ab;
     text-decoration: none;
-  }
+}
+
+#more-articles  {
+    display: inline-block;
+}
